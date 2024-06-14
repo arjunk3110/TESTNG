@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Assertion.SoftAndHardAssertion">
+      <class name="DataProvider.DataProviderTest">
         <methods>
-          <include name="VerifyTitlet"/>
+          <include name="BrowsersetUp"/>
+          <include name="CloseBrowser"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- Assertion.SoftAndHardAssertion -->
+      </class> <!-- DataProvider.DataProviderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
