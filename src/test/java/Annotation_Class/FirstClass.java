@@ -9,7 +9,7 @@ public class FirstClass {
 	@Test
 	public void LoginTest()
 	{
-		System.out.println("This is First Class Test");
+		System.out.println("This is FIRST Test Method");
 	}
 	
 

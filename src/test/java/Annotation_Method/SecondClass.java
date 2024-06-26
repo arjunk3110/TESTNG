@@ -7,16 +7,16 @@ public class SecondClass extends FirstClass
 	
 
 	@Test
-	public void LoginTest()
+	public void Enterdata()
 	{
-		System.out.println("This is Second Test");
+		System.out.println("This is SECOND Test Method");
 	}
 
 
 	@Test
-	public void LoginTest1()
+	public void Logout()
 	{
-		System.out.println("This is Third Test");
+		System.out.println("This is THIRD Test Method");
 	}
 
 }
